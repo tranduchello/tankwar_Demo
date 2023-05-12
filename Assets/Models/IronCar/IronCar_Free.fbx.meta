@@ -1,0 +1,102 @@
+fileFormatVersion: 2
+guid: 81c011178049a6243ba9dbb514487505
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Antenna
+    100002: IronCar
+    100004: //RootNode
+    100006: IronGun
+    100008: IronHead
+    100010: IronWheel_BL
+    100012: IronWheel_BR
+    100014: IronWheel_FL
+    100016: IronWheel_FR
+    400000: Antenna
+    400002: IronCar
+    400004: //RootNode
+    400006: IronGun
+    400008: IronHead
+    400010: IronWheel_BL
+    400012: IronWheel_BR
+    400014: IronWheel_FL
+    400016: IronWheel_FR
+    2300000: Antenna
+    2300002: IronCar
+    2300004: IronGun
+    2300006: IronHead
+    2300008: IronWheel_BL
+    2300010: IronWheel_BR
+    2300012: IronWheel_FL
+    2300014: IronWheel_FR
+    3300000: Antenna
+    3300002: IronCar
+    3300004: IronGun
+    3300006: IronHead
+    3300008: IronWheel_BL
+    3300010: IronWheel_BR
+    3300012: IronWheel_FL
+    3300014: IronWheel_FR
+    4300000: IronWheel_BL
+    4300002: IronHead
+    4300004: IronWheel_FL
+    4300006: IronGun
+    4300008: IronWheel_FR
+    4300010: IronWheel_BR
+    4300012: IronCar
+    4300014: Antenna
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

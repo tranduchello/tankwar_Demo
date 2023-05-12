@@ -1,0 +1,59 @@
+Weapon System 1.0
+
+Include Sample Weapon
+- Homing missile
+- Machine Gun
+- Storm Rocket
+- Cannon
+- Napalm Rocket
+
+ * How to Create new weapon 
+you need 3 part to create the weapon
+
+1. Launcher
+2. Bullet
+3. Combine
+
+Part 1. Launcher
+- Create empty object or use 3d mesh such as Gun model , Rocket Launcher model
+- Add WeaponLauncher.js Component
+- Edit Parameter
+	- Missile is Bullet Prefeb
+	- Noise is how the gun accuracy 0 is very stable
+	- Flash is Muzzle flash
+	- Flash size is size of muzzle flash
+	- Fire Rate
+	- Sound Gun
+	- Force Shoot is shooting force
+	- Num Bullet is num of bullet per shot
+	- Targetlockontexture
+	- Targetlockedtexture
+	- Distance Lock Distance between weapon and target are posible to lock
+	- Time to Lock Dulation time before locked
+	- Targettag is tag of target ex. Enemy , Player
+	- Aimdirection 0 - 1 ,0 can lock every whare around weapon.
+	- Seeker enable / dusable Target Seeker
+
+Part 2. Bullet you have 3 step
+1. Mover is type of bullet move ex. missile , normal bullet with projectile
+2. Damage is the detail of how to do damage ex. Damage point 
+3. Result ex. Explosion
+
+- Create empty object or use 3d mesh such as Bulelt model , Rocket model
+- Add MoverBullet.js or MoverMissile.js to object
+- Edit Parameter of mover component
+- Add Damage.js Component to your bullet
+- Edit Parameter
+	- Effect Explosion perfeb , ex. Explosion particle
+	- Owner is owner of weapon the bullet will ignored it, will adding by WeaponLauncher automaticaly
+	- Damage is Damage point
+	- Explosive Enable/Disable Explosion damage
+	- Explosion Radius
+	- Explosion Force is force of explosion 
+
+part 3 Combine
+- Add bullet prefeb to Launcher at 'Missile' Parameter
+- Call gameObject.GetComponent(WeaponLauncher).Shoot();
+
+Enjoy. Thank you
+	
